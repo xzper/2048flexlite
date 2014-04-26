@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dx:StateSkin xmlns:dx="http://www.flexlite.org/dxml/2012" xmlns:fs="http://www.flexlite.org/studio/2012">
+	<fs:HostComponent name="org.flexlite.domUI.components.SkinnableContainer"/>
+	<fs:Declarations>
+	</fs:Declarations>
+	<dx:states>
+		<dx:State name="normal"/>
+		<dx:State name="disabled"/>
+	</dx:states>
+	<dx:Button id="resetButton" top="37" label="重置游戏" horizontalCenter="0"/>
+	<dx:Label text="2048" x="0" y="0" textColor="0x776E65" size="80"/>
+	<dx:Label text="Join the numbers and get to the 2048 tile!" x="0" y="83" textColor="0x776E65" size="20"/>
+	<dx:Group top="0" width="80" height="80" right="0">
+		<dx:Rect width="80" height="80" radius="5" fillColor="0xbbada0"/>
+		<dx:Label textColor="0xFFFFFF" size="15" horizontalCenter="0" text="Score" verticalCenter="-24"/>
+		<dx:Label id="scoreLabel" y="30" width="100%" height="43" textColor="0xFFFFFF" size="23" text="+32" textAlign="center" verticalAlign="middle" horizontalCenter="0"/>
+		<dx:Label id="addLabel" y="30" textColor="0x8B8177" size="20" horizontalCenter="0"/>
+	</dx:Group>
+</dx:StateSkin>

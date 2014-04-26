@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dx:StateSkin xmlns:dx="http://www.flexlite.org/dxml/2012" xmlns:fs="http://www.flexlite.org/studio/2012">
+	<fs:HostComponent name="org.flexlite.domUI.components.SkinnableComponent"/>
+	<fs:Declarations>
+	</fs:Declarations>
+	<dx:states>
+		<dx:State name="normal"/>
+		<dx:State name="disabled"/>
+	</dx:states>
+	<dx:Rect width="100%" height="100%" fillColor="0xffff00" alpha="0.2"/>
+	<dx:Label id="textLabel" textColor="#776E65" size="50" horizontalCenter="0" text="Game Over" verticalCenter="0"/>
+	<dx:Button id="tryAgainButton" width="122" height="38" label="Try again" horizontalCenter="0" verticalCenter="81" skinName="org.xzper.view.components.skin.ResetButtonSkin"/>
+</dx:StateSkin>

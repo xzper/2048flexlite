@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dx:StateSkin xmlns:dx="http://www.flexlite.org/dxml/2012" xmlns:fs="http://www.flexlite.org/studio/2012" minHeight="200" minWidth="200">
+	<fs:HostComponent name="org.flexlite.domUI.components.SkinnableContainer"/>
+	<fs:Declarations>
+	</fs:Declarations>
+	<dx:states>
+		<dx:State name="normal"/>
+		<dx:State name="disabled"/>
+	</dx:states>
+	<dx:Rect id="rect" fillColor="0xbbada0" radius="10" width="100%" x="0" height="100%" y="0"/>
+	<dx:Group id="backGroundGroup" top="10" left="10" bottom="10" right="10"/>
+	<dx:Group id="tileGroup" top="10" left="10" bottom="10" right="10"/>
+	<dx:Group id="contentGroup" height="100%" width="100%" x="0" y="0"/>
+</dx:StateSkin>
