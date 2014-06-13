@@ -29,9 +29,9 @@ package
 			var item1:ConfigItem = new ConfigItem("resource/config/ini.xml","xml", "resource/");
 			var configList:Vector.<ConfigItem> = new <ConfigItem>[item1];
 			Dll.loadConfig(configList, "1");
-			Dll.loadGroup("loading", 1);
-			Dll.loadGroup("preload");
-			Dll.loadGroup("uigroup");
+			Dll.loadGroup("loading",2);
+			Dll.loadGroup("preload",1);
+			Dll.loadGroup("uigroup",0);
 		}
 		
 		protected function onItemFinished(event:DllEvent):void
